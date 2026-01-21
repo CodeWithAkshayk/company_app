@@ -52,7 +52,17 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+
+            Text("Next Screen"),
+            ElevatedButton(
+              onPressed: () {
+              },
+              child: Text('Go to Second Screen'),
+            ),
           ],
+
+
+
         ),
       ),
       floatingActionButton: FloatingActionButton(
