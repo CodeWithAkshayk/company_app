@@ -15,8 +15,13 @@ class _LoginScreenState extends State<LoginScreen> {
       appBar: AppBar(
         title: const Text('Login Screen'),
       ),
-      body: const Center(
+      body: Column(
+        child:[
+          Text("This is the update"),
+          const Center(
         child: Text('This is the Login Screen'),
+      ),
+        ]
       ),
     );
   }
