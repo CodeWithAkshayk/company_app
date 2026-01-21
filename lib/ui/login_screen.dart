@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 
@@ -12,16 +11,12 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Login Screen'),
-      ),
+      appBar: AppBar(title: const Text('LoginScreen')),
       body: Column(
-        child:[
+        children: [
           Text("This is the update"),
-          const Center(
-        child: Text('This is the Login Screen'),
-      ),
-        ]
+          const Center(child: Text('This is the Login Screen')),
+        ],
       ),
     );
   }
